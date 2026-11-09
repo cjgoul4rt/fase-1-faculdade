@@ -1,0 +1,86 @@
+================================================================================
+                     PetShop Amigo Fiel - Arquivo de Ajuda
+================================================================================
+
+Este arquivo descreve as funcionalidades do sistema web desenvolvido para o
+PetShop Amigo Fiel, como parte da Fase 1 do projeto da disciplina de
+Fundamentos de Sistemas Web.
+
+--------------------------------------------------------------------------------
+1. ESTRUTURA DO SISTEMA
+--------------------------------------------------------------------------------
+
+O sistema é composto por quatro páginas HTML interligadas:
+
+- index.html     : Página inicial com apresentação do petshop.
+- produtos.html  : Página com a visualização dos produtos por categoria.
+- servicos.html  : Página com os serviços oferecidos e valores.
+- contato.html   : Página com informações de contato e formulário.
+
+Todas as páginas possuem:
+- Cabecalho (header) com o nome do petshop e menu de navegacao.
+- Corpo (body) com o conteudo especifico de cada pagina.
+- Rodape (footer) com informacoes de contato, autoria e direitos autorais.
+
+--------------------------------------------------------------------------------
+2. FUNCIONALIDADES
+--------------------------------------------------------------------------------
+
+2.1 Navegacao
+- O menu de navegacao esta presente em todas as paginas.
+- Permite acessar as paginas: Inicio, Produtos, Servicos e Contato.
+- Os links sao relativos, funcionando dentro da mesma pasta do projeto.
+
+2.2 Produtos
+- A pagina produtos.html exibe os produtos organizados em tres categorias:
+  * Acessorios: roupa de inverno, brinquedo interativo, cama acolchoada.
+  * Racoes nao pereciveis: racao para cao adulto, racao para gato adulto,
+    racao para filhotes.
+  * Higiene e Limpeza: tapete higienico, fralda descartavel, shampoo
+    hipoalergenico.
+- Cada produto e apresentado com foto, descricao e valor.
+
+2.3 Servicos
+- A pagina servicos.html exibe os servicos de banho e tosa.
+- Sao apresentadas as seguintes opcoes:
+  * Banho
+  * Banho com Tele-busca
+  * Banho e Tosa
+  * Banho e Tosa com Tele-busca
+- Cada servico possui descricao, indicacao de tele-busca (sim ou nao) e valor.
+
+2.4 Contato
+- A pagina contato.html exibe informacoes de contato do petshop.
+- Possui um formulario para envio de mensagens.
+- O formulario inclui campos de nome, e-mail, telefone, assunto e mensagem.
+
+--------------------------------------------------------------------------------
+3. TECNOLOGIAS UTILIZADAS
+--------------------------------------------------------------------------------
+
+- HTML5: linguagem de marcacao para estruturacao das paginas.
+- Imagens placeholder: geradas pelo servico placehold.co para ilustrar os
+  produtos sem a necessidade de arquivos de imagem locais.
+
+Observacoes:
+- Nao foi utilizado CSS nem JavaScript nesta fase, conforme determinado no
+  enunciado do projeto.
+- O layout e basico e sem customizacao visual.
+
+--------------------------------------------------------------------------------
+4. COMO EXECUTAR
+--------------------------------------------------------------------------------
+
+1. Baixe todos os arquivos do projeto.
+2. Mantenha os arquivos na mesma pasta/diretorio.
+3. Clique duas vezes no arquivo index.html ou abra-o em um navegador web.
+4. Navegue pelas paginas utilizando o menu superior.
+
+--------------------------------------------------------------------------------
+5. AUTORIA
+--------------------------------------------------------------------------------
+
+Autor: Cleiton Júnior da Luz Goulart
+Curso: Tecnologia em Analise e Desenvolvimento de Sistemas (ADS)
+Disciplina: Fundamentos de Sistemas Web
+Ano: 2026
